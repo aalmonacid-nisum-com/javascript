@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS: Validar edad mayor 18 años</title>
+</head>
+<body>
+<script>
+//pide nombre
+let nombre = prompt("Por favor, ingresa tu nombre:");
+
+//pide apellido
+let apellido = prompt("Por favor, ingresa tu apellido:");
+
+// pide edad
+let edad = prompt("Por favor, ingresa tu edad:");
+
+// edad formato numero
+edad = parseInt(edad);
+
+// valida que edad sea un numero valido
+while (isNaN(edad)) {
+  alert("Por favor, ingresa un número válido para la edad.");
+  edad = prompt("Por favor, ingresa tu edad:");
+  edad = parseInt(edad);
+}
+
+// funcion if else
+if (edad >= 18) {
+  alert(`Hola ${nombre} ${apellido}, eres mayor de edad.`);
+} else {
+  alert(`Hola ${nombre} ${apellido}, eres menor de edad.`);
+}
+</script>
+</body>
+</html>

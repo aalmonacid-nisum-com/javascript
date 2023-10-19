@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Venta de Mariscos, Pescados y Comida Preparada: Machas, Locos, Camarones, Ostiones, Jaiba, Pulpo, Salmón, Atún, Reineta, Tilapia, Ceviche, Lasagna">
+    <meta name="keywords" content="Acompañamientos, locos, machas, gourmet, promos, comida congelada, comida preparada">
+    <title>SurChef: Venta de productos gourmet</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Nunito:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<!--header-->
+<div class="top-bar">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col me-auto">
+                <i class="fa-brands fa-whatsapp"></i> <strong>PIDE POR WHATSAPP:</strong> <a href="tel:+569 9999 9999">+569 9999 9999</a>
+            </div>
+            <div class="col-auto rrss">
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--end container-->
+</div>
+<!--end top-bar-->
+
+<!--header-->
+<header class="header sticky-top">
+    <nav class="navbar navbar-expand-md navbar-dark bg-header">
+        <div class="container-fluid">
+            <!--logo-->
+            <a class="navbar-brand" href="#">
+                <a href="index.html" class="me-2"><img src="images/html/logo-empresa-blanco.svg" class="img-fluid" width="70" alt="CHef"></a>
+            </a>
+            <!--boton hamburguesa-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--menu principal-->
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/productos.html">Tienda</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Productos</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="pages/productos.html">Pescados</a></li>
+                            <li><a class="dropdown-item" href="pages/productos.html">Mariscos</a></li>
+                            <li><a class="dropdown-item" href="pages/productos.html">Postres</a></li>
+                            <li><a class="dropdown-item" href="pages/productos.html">Congelados</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/productos.html">Promociones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/recetas.html">Recetas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/conocenos.html">Conócenos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/contactanos.html">Escríbenos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="btn btn-primary py-2 px-4">Regístrate aquí</a>
+                    </li>
+                </ul>
+                <!--usuarios registrados-->
+                <div class="nav-secondary d-flex">
+                    <a href="">
+                        <i class="fa-solid fa-user"></i><br>Mi cuenta
+                    </a>
+                    <a href="">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+            </div>
+            <!--end menu principal-->
+        </div>
+        <!--end container-->
+    </nav>
+</header>
+<!--end header-->
+
+<main class="main">
+
+    <!--carrusel-->
+    <div id="carruselHome" class="carousel slide mb-6" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carruselHome" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carruselHome" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/fotos/foto-home.png" class="img-fluid" width="100%" alt="Quiénes somos">
+            <div class="container">
+                <div class="carousel-caption text-start">
+                    <div class="text">
+                        <h2>Quiénes somos</h2>
+                        <p class="text">Seleccionamos productos de primera calidad y los llevamos a tu mesa al mejor precio.</p>
+                        <p><a class="btn btn-lg btn-primary" href="pages/conocenos.html">Leer más</a></p>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <!---->
+          <div class="carousel-item">
+            <img src="images/fotos/foto-home-02.png" class="img-fluid" width="100%" alt="Recetas">
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <div class="text">
+                    <h2>Recetas</h2>
+                    <p class="text">Disfruta y sorprende con las más ricas y variadas recetas, junto a nuestra calidad y sabor premium.</p>
+                    <p><a class="btn btn-lg btn-primary" href="#">Leer más</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carruselHome" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carruselHome" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!--end carrusel-->
+
+    <!--productos-->
+    <section class="home-productos mt-4 mb-5">
+        <div class="container">
+            <div class="text-center">
+                <h1 class="title">Nuestros Productos</h1>
+                <h2 class="subtitle mb-3"><em>Más populares</em></h2>
+            </div>
+
+            <!--tabas-->
+            <div class="tab-products text-center">
+                <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5">
+                    <li class="nav-item">
+                        <a class="d-flex align-items-center text-start active" data-bs-toggle="pill" href="#promociones">
+                            <i class="fa-solid fa-hand-holding-dollar fa-2x"></i>
+                            <div class="ps-1">
+                                <h3>Promociones</h3>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="d-flex align-items-center text-start" data-bs-toggle="pill" href="#congelados">
+                            <i class="fa fa-snowflake fa-2x"></i>
+                            <div class="ps-1">
+                                <h3>Congelados</h3>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="d-flex align-items-center text-start" data-bs-toggle="pill" href="#mariscos">
+                            <i class="fa fa-fish fa-2x"></i>
+                            <div class="ps-1">
+                                <h3>Mariscos</h3>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+
+                    <div id="promociones" class="tab-pane fade show active">
+                        <div class="row g-4 productos-container-promociones">
+                            <!-- aqui se crean los productos de tabs promociones, productsContainerPromociones-->
+                        </div>
+                    </div>
+                    <!--end promociones-->
+
+                    <div id="congelados" class="tab-pane fade show">
+                        <div class="row g-4 productos-container-congelados">
+                            <!-- aqui se crean los productos de tabs congelados, productsContainerCongelados-->
+                        </div>
+                    </div>
+                    <!--end congelados-->
+
+                    <div id="mariscos" class="tab-pane fade show">
+                        <div class="row g-4 productos-container-mariscos">
+                            <!-- aqui se crean los productos de tabs congelados, productsContainerMariscos-->
+                        </div>
+                    </div>
+                    <!--end mariscos-->
+                </div>
+            </div>
+            <!--end tabs-->
+        </div>
+    </section>
+    <!--end productos-->
+
+    <!--Valores y compromiso-->
+    <section class="home-valores mb-5">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="title">Nuestros Pilares</h2>
+                <h3 class="subtitle mb-4"><em>Nuestra principal ventaja es la calidad</em></h3>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="home-pilares rounded pt-3">
+                        <div class="p-4">
+                            <i class="fa-solid fa-3x fa-heart mb-4"></i>
+                            <h5>Vida sana</h5>
+                            <p>Promovemos una vida saludable mediante el consumo de productos del mar.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="home-pilares rounded pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-utensils mb-4"></i>
+                            <h5>Servicio</h5>
+                            <p>Elegimos los mejores productos de nuestro mar al trabajar con productores locales certificados.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="home-pilares rounded pt-3">
+                        <div class="p-4">
+                            <i class="fa-solid fa-3x fa-fish mb-4"></i>
+                            <h5>Sustentabilidad</h5>
+                            <p>Apoyamos a los productores locales que cumplan con las medidas medio ambientales.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="home-pilares rounded pt-3">
+                        <div class="p-4">
+                            <i class="fa-solid fa-3x fa-palette mb-4"></i>
+                            <h5>Variedad</h5>
+                            <p>Cuidamos de manera especial la cadena de frío de nuestros productos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end compromiso-->
+
+    <!--mapa ubicacion-->
+    <section class="ubicacion">
+        <h3 class="text-center title mb-4">Nuestra ubicación</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.3029759753153!2d-70.59199492395615!3d-33.41534459571576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf163116bda3%3A0x497a9bb0d8745f74!2sAlc%C3%A1ntara!5e0!3m2!1ses-419!2scl!4v1692722986957!5m2!1ses-419!2scl" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+</main>
+<!--end main-->
+
+<footer class="footer">
+    <a href="#" class="btn-up">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 col-lg-2 col-xl-3">
+                <h4>Compañia</h4>
+                <ul>
+                    <li>
+                        <a href="pages/conocenos.html">Conócenos</a>
+                    </li>
+                    <li>
+                        <a href="pages/conocenos.html">Escríbenos</a>
+                    </li>
+                    <li>
+                        <a href="">Regístrate aquí</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-sm-4 col-lg-3 col-xl-3">
+                <h4>Contáctanos</h4>
+                <p>dirección, calle, ciudad, país</p>
+                <p>Tel: 99999999</p>
+                <p><a href="">correo@correo.cl</a></p>
+                <p>
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </p>
+            </div>
+
+            <div class="col-sm-4 col-lg-3 col-xl-3">
+                <h4>Horario</h4>
+                <p>De Lunes a Sábado de: <br>09:00 hrs. a 19:00 hrs.</p>
+            </div>
+
+            <div class="col-sm-12 col-lg-4 col-xl-3">
+                <h4>Newsletter</h4>
+                <p>No te pierdas la oportunidad de recibir nuestras ofertas y noticias.</p>
+                <form action="">
+                    <div class="position-relative">
+                        <input class="form-control w-100 py-3 ps-4 pe-5" type="email" placeholder="Ingresa tu correo">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Suscribir</button>
+                    </div>
+                </form>
+            </div>
+
+            
+        </div>
+    </div>
+</footer>
+<!--bootstrap js-->
+<script src="js/bootstrap.bundle.min.js"></script>
+<!--funciones genericas js-->
+<script src="js/tabsProductos.js"></script>
+</body>
+</html>

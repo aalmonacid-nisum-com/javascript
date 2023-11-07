@@ -54,13 +54,13 @@ validator
     },
     {
         rule: 'minLength',
-        errorMessage: 'Complete su mensaje',
-        value: 12,
+        errorMessage: 'Ej: 912345678',
+        value: 9,
     },
     {
       rule: 'minNumber',
-      errorMessage: 'Ej: 56912345678',
-      value: 12,
+      errorMessage: 'Ej: 912345678',
+      value: 9,
     },
   ])
   .addField('#mensaje', [
